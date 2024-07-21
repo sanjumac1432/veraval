@@ -1,0 +1,95 @@
+.dashboard-header {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Smooth fade-in animation */
+  }
+ 
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Stretch to fill available space */
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333; /* Darker text for logo */
+  }
+  
+  .nav-items ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .nav-items li {
+    margin-right: 1rem;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
+  }
+  
+  .nav-items a:hover {
+    color: #ff0095; /* Blue highlight on hover */
+  }
+  
+  .logout-button {
+    margin-left: auto; /* Push logout button to the right */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .chart{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+  }
+  .col p{
+    font-size: 20px;
+    text-align: left ;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .box{
+    box-shadow: 0px 0px 10px #f0e9e9;
+    height: 400px;
+  }
+  .box p{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .box p span{
+    font-size: 20px;
+    color: #62a8f3;
+  }
+  .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
